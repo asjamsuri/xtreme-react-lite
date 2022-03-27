@@ -6,3 +6,6 @@ Release Notes:
 
 **Removed**
 - [2022-MAR-26] Remove `old` folder for good.
+
+**Note**
+- [Ctrl+Shift+P] Extension: Show recommended extensions
