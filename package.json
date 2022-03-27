@@ -31,8 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "typescript": "tsc --project tsconfig.json --noEmit",
-    "eslint:init": "eslint --init",
-    "eslint:fix": "eslint --fix"
+    "eslint:init": "eslint --init"
   },
   "eslintConfig": {
     "extends": [
