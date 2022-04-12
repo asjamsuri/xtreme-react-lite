@@ -1,5 +1,5 @@
-import ProjectTables from "../../components/dashboard/ProjectTable";
-import { Row, Col, Table, Card, CardTitle, CardBody } from "reactstrap";
+import ProjectTables from '../../components/dashboard/ProjectTable';
+import { Row, Col, Table, Card, CardTitle, CardBody } from 'reactstrap';
 
 const Tables = () => {
   return (
@@ -15,7 +15,10 @@ const Tables = () => {
       {/* --------------------------------------------------------------------------------*/}
       <Col lg="12">
         <Card>
-          <CardTitle tag="h6" className="border-bottom p-3 mb-0">
+          <CardTitle
+            tag="h6"
+            className="border-bottom p-3 mb-0"
+          >
             <i className="bi bi-card-text me-2"> </i>
             Table with Border
           </CardTitle>
@@ -58,12 +61,18 @@ const Tables = () => {
       {/* --------------------------------------------------------------------------------*/}
       <Col lg="12">
         <Card>
-          <CardTitle tag="h6" className="border-bottom p-3 mb-0">
+          <CardTitle
+            tag="h6"
+            className="border-bottom p-3 mb-0"
+          >
             <i className="bi bi-card-text me-2"> </i>
             Table with Striped
           </CardTitle>
           <CardBody className="">
-            <Table bordered striped>
+            <Table
+              bordered
+              striped
+            >
               <thead>
                 <tr>
                   <th>#</th>
@@ -101,12 +110,18 @@ const Tables = () => {
       {/* --------------------------------------------------------------------------------*/}
       <Col lg="12">
         <Card>
-          <CardTitle tag="h6" className="border-bottom p-3 mb-0">
+          <CardTitle
+            tag="h6"
+            className="border-bottom p-3 mb-0"
+          >
             <i className="bi bi-card-text me-2"> </i>
             Table with Hover
           </CardTitle>
           <CardBody className="">
-            <Table bordered hover>
+            <Table
+              bordered
+              hover
+            >
               <thead>
                 <tr>
                   <th>#</th>

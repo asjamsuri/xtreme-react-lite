@@ -108,7 +108,6 @@
 <p>Twitter: <a href="https://twitter.com/wrappixel">https://twitter.com/wrappixel</a></p>
 <p>Medium: <a href="https://medium.com/wrappixel">https://medium.com/wrappixel</a></p>
 
-
 <!-- Demo of Template -->
 <!-- <h2>Demo</h2>
 <ul>
@@ -129,7 +128,6 @@
 <li><a href="https://github.com/wrappixel/xtreme-react-lite/archive/master.zip">Download from Github</a>.</li>
 <li><a href="https://www.wrappixel.com/templates/xtreme-react-admin-lite/#demos" rel="nofollow">Download from Wrappixel</a>.</li>
 </ul> -->
-
 
 <!-- Older Content -->
 <!-- <h3>React Version of Xtreme admin, you can use it for your personal project, Footer backlink required, it must be redirect to our wrappixel.com</h3> -->

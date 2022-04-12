@@ -1,4 +1,4 @@
-import { Row, Col, Card, CardBody, CardTitle, Button } from "reactstrap";
+import { Row, Col, Card, CardBody, CardTitle, Button } from 'reactstrap';
 
 const About = () => {
   return (
@@ -8,7 +8,10 @@ const About = () => {
         {/* Card-1*/}
         {/* --------------------------------------------------------------------------------*/}
         <Card>
-          <CardTitle tag="h6" className="border-bottom p-3 mb-0">
+          <CardTitle
+            tag="h6"
+            className="border-bottom p-3 mb-0"
+          >
             <i className="bi bi-bell me-2"> </i>
             About Xtreme React
           </CardTitle>

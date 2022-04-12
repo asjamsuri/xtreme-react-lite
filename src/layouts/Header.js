@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Navbar,
   Collapse,
@@ -11,10 +11,10 @@ import {
   DropdownMenu,
   DropdownItem,
   Dropdown,
-  Button,
-} from "reactstrap";
-import { ReactComponent as LogoWhite } from "../assets/images/logos/xtremelogowhite.svg";
-import user1 from "../assets/images/users/user1.jpg";
+  Button
+} from 'reactstrap';
+import { ReactComponent as LogoWhite } from '../assets/images/logos/xtremelogowhite.svg';
+import user1 from '../assets/images/users/user1.jpg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -25,12 +25,19 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   const showMobilemenu = () => {
-    document.getElementById("sidebarArea").classList.toggle("showSidebar");
+    document.getElementById('sidebarArea').classList.toggle('showSidebar');
   };
   return (
-    <Navbar color="primary" dark expand="md">
+    <Navbar
+      color="primary"
+      dark
+      expand="md"
+    >
       <div className="d-flex align-items-center">
-        <NavbarBrand href="/" className="d-lg-none">
+        <NavbarBrand
+          href="/"
+          className="d-lg-none"
+        >
           <LogoWhite />
         </NavbarBrand>
         <Button
@@ -56,20 +63,38 @@ const Header = () => {
         </Button>
       </div>
 
-      <Collapse navbar isOpen={isOpen}>
-        <Nav className="me-auto" navbar>
+      <Collapse
+        navbar
+        isOpen={isOpen}
+      >
+        <Nav
+          className="me-auto"
+          navbar
+        >
           <NavItem>
-            <Link to="/starter" className="nav-link">
+            <Link
+              to="/starter"
+              className="nav-link"
+            >
               Starter
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/about" className="nav-link">
+            <Link
+              to="/about"
+              className="nav-link"
+            >
               About
             </Link>
           </NavItem>
-          <UncontrolledDropdown inNavbar nav>
-            <DropdownToggle caret nav>
+          <UncontrolledDropdown
+            inNavbar
+            nav
+          >
+            <DropdownToggle
+              caret
+              nav
+            >
               DD Menu
             </DropdownToggle>
             <DropdownMenu end>
@@ -80,7 +105,10 @@ const Header = () => {
             </DropdownMenu>
           </UncontrolledDropdown>
         </Nav>
-        <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+        <Dropdown
+          isOpen={dropdownOpen}
+          toggle={toggle}
+        >
           <DropdownToggle color="primary">
             <img
               src={user1}

@@ -1,9 +1,9 @@
-import { Card, CardBody } from "reactstrap";
+import { Card, CardBody } from 'reactstrap';
 
 const TopCards = (props) => {
   return (
     <Card>
-      <CardBody>
+      {/* <CardBody>
         <div className="d-flex">
           <div className={`circle-box lg-box d-inline-block ${props.bg}`}>
             <i className={props.icon}></i>
@@ -13,7 +13,7 @@ const TopCards = (props) => {
             <small className="text-muted">{props.subtitle}</small>
           </div>
         </div>
-      </CardBody>
+      </CardBody> */}
     </Card>
   );
 };
