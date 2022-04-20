@@ -1,6 +1,7 @@
 Release Notes:
 
 - Forked project from [WrapPixel - Xtreme React Admin Lite](https://www.wrappixel.com/templates/xtreme-react-admin-lite)
+- [ESLint Demo](https://eslint.org/demo)
 
 **Added:**
 
