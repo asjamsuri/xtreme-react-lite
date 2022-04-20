@@ -6,6 +6,7 @@ Release Notes:
 **Added:**
 
 - [2022-MAR-26] Add typescript
+- [2022-APR-20] Add `@trivago/prettier-plugin-sort-imports`
 
 **Removed**
 

@@ -9,5 +9,10 @@
   "bracketSameLine": false,
   "singleAttributePerLine": true,
   "jsxSingleQuote": false,
-  "endOfLine": "crlf"
+  "endOfLine": "crlf",
+
+  "importOrder": ["^[./]"],
+  // "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
